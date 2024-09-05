@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+h1,a{
+    display: block;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+}
+.momo{
+    height: 100%;            /* Ensures that both html and body take full height */
+    margin: 0;               /* Removes any default margin */
+    padding: 0;              /* Removes any default padding */
+    box-sizing: border-box;   /* Ensures padding and borders are included in the element's width and height */
+    overflow-x: hidden;       /* Prevents horizontal scrolling */
+    min-height: 100vh;        /* Ensures the body takes up at least the full viewport height */
+    display: flex;            /* Optional: Flexbox layout if needed */
+    flex-direction: column;   /* Optional: Arrange child elements vertically */
+    background: linear-gradient(45deg, red, blue);
+}
+.dumpling{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 16px;
+    margin: 0 auto;
+    padding-left: -525px;
+}
+.images img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+.first, .ingridients{
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.list ul {
+    list-style-position: inside; /* Ensures bullets stay with the text */
+    margin: 0;                    /* Resets any inherited margins */
+    padding-left: 20px;            /* Adds space between the bullet and the text */
+    text-align: left;              /* Aligns text to the left */
+}
